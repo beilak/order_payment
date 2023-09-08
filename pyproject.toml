@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "order-payment"
+version = "0.1.0"
+description = ""
+authors = ["Beilak <beylak@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "order_payment"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aio-pika = "^9.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
